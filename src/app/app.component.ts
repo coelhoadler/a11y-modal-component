@@ -13,6 +13,7 @@ export class AppComponent {
   public surname = 'Coelho Santos';
   public age = 30;
   public modalRef: ModalRef;
+  public selectedTemplate = null;
 
   @ViewChild('modal') modalTemplateRef: TemplateRef<any>;
 
