@@ -9,5 +9,6 @@ import { ModalConfig } from "./interfaces/modal.interface";
 export class ModalComponent { 
 
     public config: ModalConfig;
+    public nome = 'Adler';
 
 }
