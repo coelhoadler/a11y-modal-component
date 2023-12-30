@@ -1,9 +1,10 @@
-import { BrowserModule } from '@angular/platform-browser';
-import { NgModule } from '@angular/core';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { NgModule, } from '@angular/core';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { ModalModule } from './shared/modal/modal.module';
+import { ModalModule } from './shared/components/modal/modal.module';
+import { BrowserModule } from '@angular/platform-browser';
 
 @NgModule({
   declarations: [
@@ -11,8 +12,9 @@ import { ModalModule } from './shared/modal/modal.module';
   ],
   imports: [
     BrowserModule,
+    BrowserAnimationsModule,
     AppRoutingModule,
-    ModalModule
+    ModalModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
