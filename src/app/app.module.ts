@@ -5,6 +5,7 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { ModalModule } from './shared/components/modal/modal.module';
 import { BrowserModule } from '@angular/platform-browser';
+import { ReactiveFormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -15,6 +16,7 @@ import { BrowserModule } from '@angular/platform-browser';
     BrowserAnimationsModule,
     AppRoutingModule,
     ModalModule,
+    ReactiveFormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
